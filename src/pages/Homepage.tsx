@@ -1,8 +1,14 @@
-import React from 'react'
+import Banner from "@/components/shared/Banner/Banner"
+import BannerBottom from "@/components/shared/Banner/BannerBottom"
+
 
 const Homepage = () => {
   return (
-    <div>Homepage</div>
+     <div className="w-full mx-auto">
+      <Banner />
+      <BannerBottom />
+    
+    </div>
   )
 }
 
