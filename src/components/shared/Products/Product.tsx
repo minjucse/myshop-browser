@@ -19,6 +19,7 @@ interface ProductProps {
   price: number;
   color: string;
   badge?: boolean;
+  des?: string;
 }
 
 // --------------------------------------------
